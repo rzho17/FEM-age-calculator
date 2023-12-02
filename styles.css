@@ -1,3 +1,94 @@
+:root {
+  /* primary */
+  --purple: hsl(259, 100%, 65%);
+  --lightRed: hsl(0, 100%, 67%);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --offWhite: hsl(0, 0%, 94%);
+  --lightGrey: hsl(0, 0%, 86%);
+  --smokeyGrey: hsl(0, 1%, 44%);
+  --offBlack: hsl(0, 0%, 8%);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 1rem;
+}
+
+.calculatorContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+
+  background-color: beige;
+  border: 1px solid;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0.8rem;
+  padding-right: 1.25rem;
+  width: 3rem;
+
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.middleContainer {
+  /* display: flex; */
+
+  height: 75px;
+  /* border: 1px solid; */
+
+  border-bottom: 1px solid;
+
+  /* padding: 3rem 1rem; */
+  margin: 0rem 0rem 3rem;
+
+  position: relative;
+}
+
 .iconHolder {
-  background-color: purple;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  top: 55%;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+/* .line {
+  background-color: red;
+  height: 50%;
+  width: 100%;
+  border: 1px solid;
+
+  position: relative;
+} */
+
+.icon {
+  width: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: var(--purple);
 }
