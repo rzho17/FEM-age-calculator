@@ -69,6 +69,10 @@ input {
   border: 1px solid var(--lightGrey);
 }
 
+.submit {
+  display: none;
+  width: 1px;
+}
 .error {
   color: var(--lightRed);
 }
