@@ -47,7 +47,8 @@ main {
 }
 
 label {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: 800;
   letter-spacing: 2px;
   color: var(--smokeyGrey);
 }
@@ -74,6 +75,9 @@ input {
   width: 1px;
 }
 .error {
+  font-size: 0.8rem;
+  /* font-weight: 0.5rem; */
+  font-weight: 200;
   color: var(--lightRed);
 }
 .middleContainer {

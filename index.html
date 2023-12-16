@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,400;1,800&display=swap"
       rel="stylesheet"
     />
 
@@ -45,28 +45,19 @@
               inputmode="numeric"
               name="day"
               id="day"
-              min="1"
-              max="31"
               value="18"
             />
-            <div class="error day">error</div>
+            <div class="error day"></div>
           </div>
           <div class="input">
             <label for="month">MONTH</label>
-            <input
-              type="number"
-              name="month"
-              id="month"
-              min="1"
-              max="12"
-              value="11"
-            />
-            <div class="error month">error</div>
+            <input type="number" name="month" id="month" value="11" />
+            <div class="error month"></div>
           </div>
           <div class="input">
             <label for="year">YEAR</label>
             <input type="number" name="year" id="year" value="1997" />
-            <div class="error year">error</div>
+            <div class="error year"></div>
           </div>
           <input type="submit" class="submit" />
         </form>
