@@ -26,6 +26,7 @@ const inputValidation = (day, year, month, currentYear) => {
   ) {
     removeErrorColors();
   }
+
   if (day === "" && month === "" && year === "") {
     showErrorInput();
     errorEmptyField();
@@ -44,18 +45,14 @@ const inputValidation = (day, year, month, currentYear) => {
   } else {
     clearErrorMsgDay("month");
   }
-  if (year > currentYear) {
+
+  if (year > currentYear || year == "" || year < 1000) {
+    console.log("hi");
     showErrorInput();
     errorYearField();
   } else {
     clearErrorMsgDay("year");
   }
-
-  // if (day > daysInMonth(month, year) || day === "") {
-  //   console.log("invalid");
-  // } else {
-  //   console.log("valid");
-  // }
 };
 
 const formSubmit = (() => {
@@ -95,8 +92,6 @@ const formSubmit = (() => {
     variables.year.textContent = resultYear;
     variables.month.textContent = resultMonth;
     variables.day.textContent = resultDay;
-
-    // showErrorInput();
 
     inputValidation(
       variables.dayInput.value,
