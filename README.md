@@ -20,7 +20,7 @@ This is my version of the age calculator challenge.
 
 ### Screenshot
 
-![](./images/age-calculator-desktop.png)
+![](./assets/images/age-calculator-desktop.png)
 
 ### Links
 
