@@ -20,7 +20,7 @@ This is my version of the age calculator challenge.
 
 ### Screenshot
 
-![](./images/age-calculator.png)
+![](./images/age-calculator-desktop.png)
 
 ### Links
 
@@ -29,7 +29,7 @@ This is my version of the age calculator challenge.
 
 ## My process
 
-I started by designing the mobile design first and added any remaing divs / styles needed to complete the project
+I started by designing the mobile design first and added any remaing divs / styles needed to complete the project. As for the javascript section, I tried to figure out a solution first to calculate the age of the user but eventually had to look up other resources as I could not figure out how to do it.
 
 ### Built with
 
@@ -40,11 +40,11 @@ I started by designing the mobile design first and added any remaing divs / styl
 
 ### What I learned
 
-I experimented by trying not to set any widths for certain elements. My goal was to try to achieve a flexible design that would work on both mobile and desktop.
+I got to practice getting user inputs as data and using it in other processes. I also got to learn how to create errors for each error case on invalid inputs.
 
 ### Continued development
 
-I still need to learn more about sizing in CSS. I feel whenever I try to do something it never works how I want it to. I feel it's because I don't fully understand what I am doing sometimes so I have to resort to adjusting things by adding margin or padding when there are already capable tools to achieve what I want.
+I would like to learn how to develop the sliding animation that was mentioned, but I feel I have spent enough time on this project and need to keep moving forward to continue improving my skills and other projects.
 
 ## Author
 
